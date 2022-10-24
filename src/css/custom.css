@@ -1,0 +1,224 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.scoring__dist--group {
+  display: inline-block;
+  margin: -1em 0.5em 1em;
+  width: calc(50% - 3em);
+}
+
+.scoring__dist--group h4 {
+  margin: 0.3em;
+  color: #91999e;
+}
+
+.scoring__dist--row {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.scoring__dist--row > span:first-child {
+  -webkit-flex: 0 0 6em;
+  -moz-flex: 0 0 6em;
+  -ms-flex: 0 0 6em;
+  flex: 0 0 6em;
+  text-align: right;
+}
+.scoring__dist--row > input {
+  -webkit-flex: 1 0 auto;
+  -moz-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  margin: 0 0.5em;
+}
+.scoring__dist--row > span:last-child {
+  -webkit-flex: 0 0 4em;
+  -moz-flex: 0 0 4em;
+  -ms-flex: 0 0 4em;
+  flex: 0 0 4em;
+  text-align: left;
+  }
+
+#guess-graph, #score-graph {
+  width: 100%;
+  height: 170px;
+}
+
+.graph-area {
+  opacity: 0.5;
+  stroke-width: 0 !important;
+}
+
+.graph-line {
+  stroke-width: 2;
+  fill: none !important;
+}
+
+.guesses {
+  fill: #91999e;
+  stroke: #91999e;
+}
+
+.yes-score {
+  fill: #6077d0;
+  stroke: #6077d0;
+}
+
+.no-score {
+  fill: #d05367;
+  stroke: #d05367;
+}
+
+.avg-score {
+  fill: none;
+  stroke: black;
+  stroke-width: 1;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #91999e;
+  shape-rendering: crispEdges;
+}
+.axis text {
+  fill: #91999e;
+}
+
+[toggle-details]{
+    cursor:pointer
+}
+[toggle-details]>.disclosure-triangle{
+    display:inline-block;
+    margin:0 .4em -.1em 0;
+    transition:.2s
+}
+[toggle-details]>.disclosure-triangle path{
+    fill:currentColor;
+    stroke:none
+}
+[toggle-details].show-details>.disclosure-triangle{
+    transform:rotate(90deg)
+}
+[toggle-details]>.disclosure-cross{
+    display:inline-block;
+    margin:0 .4em -.2em 0;
+    transition:.2s
+}
+[toggle-details]>.disclosure-cross .hbar{
+    opacity:1;
+    transition:.2s
+}
+[toggle-details]>.disclosure-cross circle,[toggle-details]>.disclosure-cross line{
+    stroke:currentColor;
+    stroke-width:1;
+    fill:none
+}
+[toggle-details].show-details>.disclosure-cross{
+    transform:rotate(90deg)
+}
+[toggle-details].show-details>.disclosure-cross .hbar{
+    opacity:0
+}
+fieldset.detail-box{
+    border:1px solid var(--gray300);
+    margin:16px 0;
+    padding:8px 12px 12px;
+    position:relative
+}
+fieldset.detail-box legend{
+    color:var(--gray600);
+    font:400 13px/16.26px Diatype Variable,Diatype,Helvetica,sans-serif;
+    margin:0 8px;
+    padding:0 4px
+}
+fieldset.detail-box>div>p:first-child,fieldset.detail-box>div>p:last-child{
+    margin:0
+}
+fieldset.detail-box.collapsed{
+    border-width:1px 0 0;
+    padding:0 13px
+}
+fieldset.detail-box .detail-box__hit-area{
+    cursor:pointer;
+    height:16px;
+    left:0;
+    position:absolute;
+    top:-16px;
+    width:100%
+}
+.content fieldset.detail-box{
+    max-width:672px
+}
+.fine-print,.hide-comment{
+    font:400 15px/20px "Source Serif Pro";
+    font-weight:400;
+    font-weight:var(--body-font-weight,400)
+}
+.toggle-switch{
+    border:1px solid var(--gray000);
+    border-radius:8px;
+    cursor:pointer;
+    display:inline-block;
+    height:16px;
+    position:relative;
+    width:32px
+}
+.toggle-switch input{
+    height:0;
+    opacity:0;
+    width:0
+}
+.toggle-switch .slider{
+    align-items:center;
+    background-color:var(--blue900);
+    border-radius:8px;
+    box-shadow:0 0 0 1px var(--gray000);
+    display:flex;
+    height:14px;
+    justify-content:center;
+    left:0;
+    position:absolute;
+    top:0;
+    transition:.4s;
+    width:18px
+}
+.toggle-switch .saturated{
+    color:#ff0
+}
+.toggle-switch input:checked+.slider{
+    left:12px
+}
