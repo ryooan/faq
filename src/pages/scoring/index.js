@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import Layout from '@theme/Layout';
 import Head from '@docusaurus/Head';
 import styles from './styles.module.css';
@@ -110,6 +110,8 @@ export function ScoringHead() {
   );
 }
 */
+
+/*
 
 var modelParams = {
   dist1Mode: 0.1,
@@ -520,3 +522,5 @@ window.onload = (event) => {
 	});
 	updateInterface();
 };
+
+*/
