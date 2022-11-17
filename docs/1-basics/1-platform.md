@@ -1,11 +1,8 @@
 ---
-sidebar_position: 1
-slug: /
+slug: '/'
 ---
 
-# Basics
-
-## The Metaculus Platform
+# The Metaculus Platform
 
 Metaculus is an online forecasting platform and aggregation engine that brings together a global reasoning community and keeps score for thousands of forecasters, delivering machine learning-optimized aggregate forecasts on topics of global importance. The Metaculus forecasting community is often inspired by altruistic causes, and Metaculus has a long history of partnering with nonprofit organizations, university researchers and companies to increase the positive impact of its forecasts.
 

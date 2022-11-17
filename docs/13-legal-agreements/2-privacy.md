@@ -1,4 +1,7 @@
-# METACULUS PRIVACY POLICY
+---
+---
+
+# Privacy Policy
 
 We at Metaculus, Inc. (collectively with any subsidiaries, "Metaculus") have created this Privacy Policy to describe our practices regarding information we collect through our web site (the “Service") as well as any information we collect offline and combine in our databases. Certain features discussed in this Privacy Policy may not be offered at any particular time.
 

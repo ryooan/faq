@@ -20,3 +20,7 @@ Users can hide the Community Prediction from view from within their settings. Th
 The Metaculus Prediction is the Metaculus system's best estimate of how a question will resolve. It's based on predictions from community members, but unlike the Community Prediction, it's not a simple average or median. Instead, the Metaculus Prediction uses a sophisticated model to calibrate and weight each user, ideally resulting in a prediction that's better than the best of the community.
 
 For questions that resolved in 2021, the Metaculus Prediction has a Brier score of 0.111 (evaluated at resolve time). Lower Brier scores indicate greater accuracy, with the MP slightly lower than the Community Prediction's Brier score of 0.110. you can see some of the fine details on our [track record page](https://www.metaculus.com/questions/track-record/).
+
+## Visibility of the CP and MP
+
+When a question first opens, nobody can see the Community Prediction for a while, to avoid giving inordinate weight to the very first predictions, which may "ground" or bias later ones. The Metaculus Prediction is hidden until the question closes, though it may be ***peeked at using tachyons - add link***.

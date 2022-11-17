@@ -3,7 +3,7 @@
 
 # Question Groups
 
-Question groups are sets of closely related questions or question outcomes all collected on a single page. Forecasters can predict quickly and efficiently on these interconnected outcomes, confident that they are keeping all of their predictions internally consistent.
+Question groups are sets of closely related questions or question outcomes all collected on a single page. Forecasters can predict quickly and efficiently on these interconnected outcomes, confident that they are keeping all of their predictions internally consistent. Question groups can contain either [binary or range](/questions/types/binary-and-range) type questions.
 
 ![Question Groups](/img/group.png)
 

@@ -1,0 +1,70 @@
+html,body {
+	height: auto;
+	min-height: 100%;
+	padding-bottom: 100px;
+	font-family: sans-serif;
+	
+}
+
+.container {
+	display: block;
+	text-align: center;
+	padding: 40px;
+}
+
+.toolbox {
+	display: inline-block;
+	justify-content: center;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+.postWrapper {
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	background-color: #F5F5F5;
+	margin: 40px;
+	border-radius: 10px;
+	box-shadow: black 0px 2px 8px 0px;
+}
+
+.postImage {
+	//width: 100%;
+	height: 200px;
+	display: flex;
+    justify-content: center;
+    align-items: start;
+    overflow: hidden
+}
+
+.postImage img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+	object-fit: cover;
+}
+
+.postDetails {
+	
+	padding: 20px 40px;
+	justify-content: center;
+	text-align: center;
+}
+
+.linkWrapper {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.linkWrapper:hover {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.linkWrapper:visited {
+	color: inherit;
+	text-decoration: inherit;
+}

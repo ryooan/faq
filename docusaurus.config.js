@@ -65,24 +65,14 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'basics',
+            docId: 'basics/platform',
             position: 'left',
             label: 'Documentation',
           },
 		  {
-			to: '/docs-guides/etiquette',
-			label: 'Guides',
             position: 'left',
-          },
-		  {
-            position: 'left',
-            label: 'Terms of Use',
-			to: '/terms'
-          },
-		  {
-            position: 'left',
-            label: 'Privacy Policy',
-			to: '/privacy'
+            label: 'Tools and Resources',
+			to: '/tools'
           },
 
         ],
@@ -91,6 +81,13 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
 	},
+	/* not sure if it's more or less usable with autocollapse
+	docs: {
+	  sidebar: {
+		autoCollapseCategories: true,
+	  },
+	},
+	*/
     }),
 	
 	plugins: [
@@ -125,24 +122,38 @@ const config = {
 		
 		//NEED TO FIGURE OUT A BETTER SOLUTION THAN THE BELOW SINCE THIS ADDS IT TO THE HEAD OF ALL PAGES AND THAT'S PROBABLY NOT IDEAL FOR LOAD TIMES. DISABLING FOR NOW SINCE I CAN'T FIGURE OUT HOW TO GET THE SCORING PAGE TO WORK.
 		
-		/*
+		
+		{
+		  src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js',
+		  /* async: true, */
+		//  defer: true,
+		},
 		{
 		  src: 'https://d3js.org/d3.v3.min.js',
-		  async: true,
-		  defer: true,
+		  //async: true,
+		  //defer: true,
 		},
 		{
 		  src: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML',
-		  async: true,
-		  defer: true,
-		},
-		{
-		  src: '/script/score-script.js',
+		//  /*async: true, */
+		//  defer: true,
+		}, 
+		//{
+		//  src: '/faq/script/score-script.js',
 		  //src: 'https://raw.githubusercontent.com/ryooan/ryooan.github.io/master/assets/score-script.js',
-		  async: true,
-		  defer: true,
+		  /* async: true, */
+		//  defer: true,
+		//},
+		{
+		  src: '/faq/script/jquery.csv.js',
+		  /* async: true, */
+		//  defer: true,
 		},
-		*/
+		//{
+		//  src: '/faq/script/mod-tool-script.js',
+		//  async: true,
+		//  defer: true,
+		//},
 	  ],
 	
 	

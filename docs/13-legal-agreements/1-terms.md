@@ -1,3 +1,6 @@
+---
+---
+
 # Terms of Use
 
 **WELCOME TO METACULUS!**

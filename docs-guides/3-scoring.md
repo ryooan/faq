@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Metaculus Scoring System
 
-##PAGE NOT CURRENTLY FUNCTIONAL
+## PAGE NOT CURRENTLY FUNCTIONAL
 
 <section className="section-box">
   <div className="section__header">
