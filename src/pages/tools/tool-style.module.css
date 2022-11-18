@@ -9,7 +9,7 @@ html,body {
 .container {
 	display: block;
 	text-align: center;
-	padding: 40px;
+	padding: 20px;
 }
 
 .toolbox {
@@ -45,6 +45,22 @@ html,body {
     min-width: 100%;
     min-height: 100%;
 	object-fit: cover;
+}
+
+@media (max-width: 500px) {
+	.postWrapper{
+	  margin: 40px auto;
+	}
+}
+
+@media (max-width: 440px) {
+	.postWrapper{
+	  width: 250px;
+	}
+	
+	.postImage{
+		height: 100px;
+	}
 }
 
 .postDetails {
