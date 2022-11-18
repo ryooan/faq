@@ -14,7 +14,6 @@ var modelParams = {
   scoreScale: 100,
 };
 
-//alert("onInput");
 
 function genGuesses(mode, width, total) {
   // Have to do some slight trickery to get the numbers to be integers.
@@ -232,6 +231,7 @@ var graphObj = {
   },
 
   dimensions: function() {
+	  console.log(this.svg.style('width'));
     var width = parseInt(this.svg.style('width'), 10),
       height = parseInt(this.svg.style('height'), 10),
       dims = Object.create(this._params.margin);
@@ -296,6 +296,9 @@ var graphObj = {
 };
 
 function onInput() {
+	
+	alert("on input");
+	 
   if (this.attributes.model) {
     if (this.nodeName === 'SELECT') {
       modelParams[this.attributes.model.value] = this.value;
@@ -327,7 +330,7 @@ function updateTextValue() {
 }
 
 function updateInterface() {
-	//alert("onInput");
+	alert("update interface");
   var mp = modelParams;
   var guessData = combineGuesses(
     genGuesses(mp.dist1Mode, mp.dist1Width, mp.dist1Total),  
@@ -389,10 +392,18 @@ var scoreGraph = Object.create(graphObj)
     },
   });
 
-d3.selectAll('input.d3-input').on('input', onInput);
-d3.selectAll('select.d3-input').on('change', onInput);
-d3.select(window).on('resize', function() {
-  guessGraph.display();
-  scoreGraph.display();
-});
-updateInterface();
+
+window.onload = (event) => {
+	
+	console.log('The page has fully loaded');
+	
+	console.log(document.getElementById('guess-graph').getBoundingClientRect());
+	
+	d3.selectAll('input.d3-input').on('input', onInput);
+	d3.selectAll('select.d3-input').on('change', onInput);
+	d3.select(window).on('resize', function() {
+	  guessGraph.display();
+	  scoreGraph.display();
+	});
+	updateInterface();
+};
