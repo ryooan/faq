@@ -90,7 +90,7 @@ const config = {
 	*/
     }),
 	
-	plugins: [
+	plugins: [ /* ONLY NEED THE BELOW IF MULTIPLE DOCS PAGES
 		[
 		  '@docusaurus/plugin-content-docs',
 		  {
@@ -102,7 +102,7 @@ const config = {
 			remarkPlugins: [math],
 			rehypePlugins: [katex],
 		  }, 
-		],
+		], */
 	],
 
 	stylesheets: [
@@ -128,16 +128,16 @@ const config = {
 		  /* async: true, */
 		//  defer: true,
 		},
-		{
-		  src: 'https://d3js.org/d3.v3.min.js',
+		//{
+		//  src: 'https://d3js.org/d3.v3.min.js',
 		  //async: true,
 		  //defer: true,
-		},
-		{
-		  src: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML',
+		//},
+		//{
+		//  src: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML',
 		//  /*async: true, */
 		//  defer: true,
-		}, 
+		//}, 
 		//{
 		//  src: '/faq/script/score-script.js',
 		  //src: 'https://raw.githubusercontent.com/ryooan/ryooan.github.io/master/assets/score-script.js',

@@ -29,10 +29,11 @@ async function caller() {
 			response[i].push("0");
 		}
 	}
+	
+	return 'done';
 }
 
-// Seems like the below gets called twice for some reason when it starts up and I'm not sure why? References import line 1 above in the console, seems weird. Also doesn't seem to break anything so ignoring for now.
-caller();
+
 
 // I think the below was from an older attempt to figure out how to get radio button output and is no longer needed, commented out but leaving it in case something is broken and I just haven't noticed it yet.
 /*
@@ -48,9 +49,11 @@ class Demo1 extends Component {
 */
 
 export default function ModTool() {
+	
 	const [divView, setDivView] = useState(Array(6).fill(false));
 	const [userText, setUserText] = useState('');
 	const [modText, setModText] = useState('');
+	const [containerID, setContainerID] = useState('containerInit');
 	
 	const steps = {
 	  0: "banner-initial",
@@ -62,8 +65,8 @@ export default function ModTool() {
 	const [animationStepMod, setAnimationStepMod] = useState(0);
 	
 	const fadeMessage = (type) => {
-		console.log("getting here");
-		console.log(type);
+		//console.log("getting here");
+		//console.log(type);
 
 		if (type == 'user') {
 			setAnimationStepUser(1);
@@ -77,6 +80,15 @@ export default function ModTool() {
 			}, 500);
 		}
 	  };
+	  
+	// The useEffect below is used both to wait until jquery is loaded before calling caller() as well as preventing clicks (using setContainerID) before the csv has been loaded in, preventing errors.
+	useEffect(() => {
+		caller().then((value) => {
+			if(value == 'done'){
+				setContainerID('container');
+			}
+		});
+	}, []);
 	
 	return (
 	
@@ -86,9 +98,9 @@ export default function ModTool() {
 	
 	<section>
 
-	<div id={styles["container"]}>
-		
-		<h1>Metaculus Question Submission Curator Response Tool</h1>
+	<div id={styles[containerID]}>
+	
+		<h1 id={styles["heading"]}>Metaculus Interactive Curator Response Tool</h1>
 		
 		<p>Use this tool to check if a question follows the Metaculus guidelines for what constitutes a good question. This tool can be by Curators to check over questions and copy some standard responses for users. But it's also recommended that question authors use it to check their questions. By using this tool question authors will be able to see what feedback Curators will have on their question and fix it prior to submitting it for review.</p>
 		
@@ -147,7 +159,7 @@ export default function ModTool() {
 }
 
 const CopiedText = (props) => {
-	console.log(props.classes);
+	//console.log(props.classes);
 	return (
 	<div className={styles[props.classes]}>
 		<p><i>Copied to clipboard!</i></p>

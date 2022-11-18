@@ -13,10 +13,23 @@ html,body {
 	//padding:5px;
 }
 
+#containerInit {
+	height: 100%;
+	padding: 10px 40px;
+	max-width: 1000px;
+	margin: auto;
+	pointer-events: none;
+}
 
 #container {
 	height: 100%;
 	padding: 10px 40px;
+	max-width: 1000px;
+	margin: auto;
+}
+
+#heading {
+	text-align: center;
 }
 
 #left_div {
