@@ -28,6 +28,16 @@ html,body {
 	margin: auto;
 }
 
+@media (max-width: 700px) {
+	#containerInit{
+		padding: 10px 10px;
+	}
+	
+	#container{
+		padding: 10px 10px;
+	}
+}
+
 #heading {
 	text-align: center;
 }
