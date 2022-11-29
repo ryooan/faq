@@ -6,7 +6,7 @@
 
 When adding comments or suggesting questions, you can take advantage of [Markdown](http://daringfireball.net/projects/markdown/) syntax to add links, emphasis, and headers. Additionally, you can add mathematical equations via [MathJax](https://www.mathjax.org), which will convert [LaTeX syntax](https://en.wikibooks.org/wiki/LaTeX/Mathematics) into nicely typeset equations. We closely follow the [official Markdown syntax](http://daringfireball.net/projects/markdown/syntax), so that's the best place to look for a thorough explanation of how the system works. We provide a brief overview of the most common uses here.
 
-## Inline elements
+## Inline Elements
 
 Links can be produced using a `[link title](http://and-link-address.com)` or by surrounding a link with `<` and `>`, like `<http://www.example.com>`. There are a number of shortcuts to make your life easier if you keep repeating the same link (see the [docs](http://daringfireball.net/projects/markdown/syntax)), but these will cover 90% of the use cases.
 
@@ -239,7 +239,7 @@ Also note that all table lines must include at least one pipe, so the initial (o
     |111221
 :::
 
-## Fine print
+## Fine Print
 
 Question texts support collapsible fine print sections with the syntax:
 
@@ -257,6 +257,6 @@ Which would give:
 Text in the fine print.
 </details>
 
-## Differences and limitations
+## Differences and Limitations
 
 The official Markdown specification lets users input raw html, but we limit users to the elements described above. For example, if you try to input an image using `![Alt text](/path/to/img.jpg)` the output will look like <img alt="Alt text" src="/path/to/img.jpg"/>, and something like `<script>doSomethingEvil()</script>` certainly won't work. We also employ a few markdown extensions that handle fenced code blocks (described above) and make [lists](https://python-markdown.github.io/extensions/sane_lists/) and bolded text a little easier to manage.

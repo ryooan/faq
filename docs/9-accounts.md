@@ -27,15 +27,15 @@ Tachyons costs are subject to change in the future.
 
 Each achievement has three ranks. Below are the criteria for moving up through each achievement’s ranks.
 
-* Predictor: Make predictions on many different questions
-* In the Black: Earn a large number of points on a single question
-* Talkative: Make lots of comments
-* Likeable: Make comments that get liked by others
-* Engaged: Update predictions multiple times on the same question
-* Evangelist: Share links to Metaculus with others
-* Beating the Crowd: Successfully predict a question’s resolution more accurately than the community (specifically, the ratio of your probability/density to the community probability/density at close time exceeds a threshold)
-* Viral Vector: Share links to Metaculus that get others to sign up
-* Private Predictor: Predict on and resolve your own private questions
+* **Predictor:** Make predictions on many different questions
+* **In the Black:** Earn a large number of points on a single question
+* **Talkative:** Make lots of comments
+* **Likeable:** Make comments that get liked by others
+* **Engaged:** Update predictions multiple times on the same question
+* **Evangelist:** Share links to Metaculus with others
+* **Beating the Crowd:** Successfully predict a question’s resolution more accurately than the community (specifically, the ratio of your probability/density to the community probability/density at close time exceeds a threshold)
+* **Viral Vector:** Share links to Metaculus that get others to sign up
+* **Private Predictor:** Predict on and resolve your own private questions
 
 
 ## Changing a Username

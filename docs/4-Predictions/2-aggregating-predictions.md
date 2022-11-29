@@ -23,4 +23,4 @@ For questions that resolved in 2021, the Metaculus Prediction has a Brier score 
 
 ## Visibility of the CP and MP
 
-When a question first opens, nobody can see the Community Prediction for a while, to avoid giving inordinate weight to the very first predictions, which may "ground" or bias later ones. The Metaculus Prediction is hidden until the question closes, though it may be ***peeked at using tachyons - add link***.
+When a question first opens, nobody can see the Community Prediction for a while, to avoid giving inordinate weight to the very first predictions, which may "ground" or bias later ones. The Metaculus Prediction is hidden until the question closes, though it may be [peeked at using tachyons](/faq/accounts#tachyons).

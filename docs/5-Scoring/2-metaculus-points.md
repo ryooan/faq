@@ -59,7 +59,7 @@ $$
 S = \frac{1}{t_c-t_o} \int_{t_o}^{t_c} S(T, o) \, dT
 $$
   
-where $t_o$ and $t_c$ are the opening and closing times. (Note that $S(T) = 0$ between the opening time and your first prediction, and is also zero after question resolution but before question close, in the case when a question ***resolves early - LINK TO EARLY RES SECTION***.) The current value of this integral is shown in the point history plot as the "total points."
+where $t_o$ and $t_c$ are the opening and closing times. (Note that $S(T) = 0$ between the opening time and your first prediction, and is also zero after question resolution but before question close, in the case when a question [resolves early](/faq/question-resolution#early-resolution). The current value of this integral is shown in the point history plot as the "total points."
 
 :::note
 

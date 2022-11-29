@@ -17,7 +17,7 @@ Your tournament question score is a time average of your relative log score over
 
 ## Question Coverage
 
-Your question coverage is the percentage of the question lifetime in which you have an active forecast (see caveats regarding the ***hidden period - ADD LINK*** and ***coverage weight - ADD LINK*** below). If you have an active forecast during the entire duration of a question, your coverage is 100%. If you don’t forecast a question at all your coverage is 0%.
+Your question coverage is the percentage of the question lifetime in which you have an active forecast (see caveats regarding the [hidden period](#hidden-period) and [coverage weight](#coverage-weight) below). If you have an active forecast during the entire duration of a question, your coverage is 100%. If you don’t forecast a question at all your coverage is 0%.
 
 ## Hidden Period
 
@@ -25,15 +25,15 @@ For most tournament questions, the community prediction is hidden at the start o
 
 ## Coverage Weight
 
-The coverage weight determines how much coverage lies in the ***hidden period - ADD LINK***. When the coverage weight is 100%, then your coverage is entirely determined by your participation during the hidden period. When coverage weight is 50% then half the coverage can be earned during the hidden period, and half during the rest of the question lifetime. Most tournament questions have a coverage weight equal to the share of the question’s  hidden period relative to its open period, or heavier, in which case predictions during the hidden period count more towards your coverage.
+The coverage weight determines how much coverage lies in the [hidden period](#hidden-period). When the coverage weight is 100%, then your coverage is entirely determined by your participation during the hidden period. When coverage weight is 50% then half the coverage can be earned during the hidden period, and half during the rest of the question lifetime. Most tournament questions have a coverage weight equal to the share of the question’s  hidden period relative to its open period, or heavier, in which case predictions during the hidden period count more towards your coverage.
 
 ## Total Tournament Score
 
-Your tournament score is the sum of your ***tournament question scores - ADD LINK*** over all questions in a tournament. You can see how your tournament score is calculated on your personal scoreboard (on the tournament page).
+Your tournament score is the sum of your [tournament question scores](#tournament-question-score) over all questions in a tournament. You can see how your tournament score is calculated on your personal scoreboard (on the tournament page).
 
 ## Total Tournament Coverage
 
-Your tournament coverage is the average of your ***question coverage - ADD LINK*** for all the questions in a tournament. You can see how your tournament coverage is calculated on your personal scoreboard (on the tournament page).
+Your tournament coverage is the average of your [question coverage](#question-coverage) for all the questions in a tournament. You can see how your tournament coverage is calculated on your personal scoreboard (on the tournament page).
 
 ## Tournament Take
 

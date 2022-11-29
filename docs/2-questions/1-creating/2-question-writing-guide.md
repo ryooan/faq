@@ -16,7 +16,7 @@ Questions should also follow some obvious rules:
 
 Writing incisive questions for forecasting can be challenging, and requires a keen eye for detail, careful precision, creativity and imagination, and a host of other skills. Fortunately, many of these skills can be cultivated with a bit of practice.
 
-For experienced question writers, we have an ***interactive checklist - update if not used*** to address common issues ***here - add link***. For a comprehensive guide to writing good questions, see our guidelines below.
+For experienced question writers, we have a checklist to address common issues [here](https://www.metaculus.com/help/question-checklist/). For a comprehensive guide to writing good questions, see our guidelines below.
 
 ## What Types of Questions are Suitable for Metaculus?
 
@@ -36,6 +36,7 @@ Resolution criteria are the backbone of any forecasting question—they spell ou
 6. **Consider fall-back criteria.** When you have a resolution that should be easy to check assuming all goes well, try to handle also the case where all doesn't go well. What if the data source you specified stops being published? Is there anything else odd that might happen to make the outcome unclear?
 7. **Try to account for unknown unknowns.** Think about how the resolution criteria behave when something you don’t expect happens anyway.
 8. **Avoid requiring significant Admin effort to resolve.** Questions should not burden Admins with having to do a lot of work to resolve them in the future. Our current policy is to reject any question that would require more than approximately 15 minutes of Admin effort to resolve, unless we judge the question to be important enough to warrant the amount of effort required.
+9. **Leave resolution authority to Metaculus.** Only Metaculus [Admins](/faq/etiquette/admins) can resolve questions and responsibility for determining appropriate resolution should rest solely with them. Questions should not give resolution authority to question authors or any other members of the community. 
 
 [See here](/question-resolution) more details about how questions resolve.
 
