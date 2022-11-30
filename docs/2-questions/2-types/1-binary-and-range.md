@@ -5,7 +5,7 @@
 
 ## Binary Questions
 
-Binary questions can resolve as either **Yes** or **No** (unless the resolution criteria were underspecified or not met, in which case they can resolve as **Ambiguous**). Binary questions are appropriate when an event can either occur or not occur. For example, the question "[Will the US unemployment rate stay above 5% through November 2021?](https://www.metaculus.com/questions/6296/us-unemployment-above-5-through-nov-2021/)" resolved as **No** because the unemployment rate dropped below 5% before the specified time.
+Binary questions can resolve as either **Yes** or **No** (unless the resolution criteria were underspecified or otherwise circumvented, in which case they can resolve as **Ambiguous**). Binary questions are appropriate when an event can either occur or not occur. For example, the question "[Will the US unemployment rate stay above 5% through November 2021?](https://www.metaculus.com/questions/6296/us-unemployment-above-5-through-nov-2021/)" resolved as **No** because the unemployment rate dropped below 5% before the specified time.
 
 ## Range Questions
 

@@ -42,7 +42,7 @@ Resolution criteria are the backbone of any forecasting question—they spell ou
 
 ## Formatting and Details
 
-Metaculus has developed its own style and norms for writing and submitting questions. Heeding these best-practices will be appreciated by Metaculus forecasters and Community Curators alike. Questions which don't follow these best-practices may be rejected.
+Metaculus has developed its own style and norms for writing and submitting questions. Heeding these best-practices will be appreciated by Metaculus forecasters and Question Curators alike. Questions which don't follow these best-practices may be rejected.
 
 1. **Write in a neutral and objective tone.** Questions in a neutral point of view represent topics fairly, proportionately, and, as far as possible, without editorial bias (think Wikipedia-style).
 2. **Put effort into your question submissions.** Don’t expect Curators to develop your question from scratch. If you have early ideas for questions but have yet to work these out, you can add a comment in the [question-suggestions discussion post](https://www.metaculus.com/questions/956/discussion-topic-what-are-some-suggestions-for-questions-to-launch/). Questions which are not nearly ready to publish and which do not follow the guidelines on this page will be rejected.
@@ -72,7 +72,7 @@ In some cases, questions must resolve at the resolution date according to the be
 The close date *must* be at least one hour prior to the resolution date, but can be much earlier, depending upon the context. Here are some guidelines for specifying the close date:
 
 * If the outcome of the question will very likely or assuredly be determined at a fixed known time, then the closing time should be immediately before this time, and the resolution time just after that. (Example: a scheduled contest between competitors or the release of scheduled data)
-* If the outcome of a question will be determined by some process that will occur at an unknown time, but the outcome is likely to be independent of this time, then it should be specified that the question [retroactively closes](#retroactive-closure) some appropriate time before the process begins. (Example: success of a rocket launch occurring at an unknown time)
+* If the outcome of a question will be determined by some process that will occur at an unknown time, but the outcome is likely to be independent of this time, then it should be specified that the question [retroactively closes](/faq/question-resolution#retroactive-closure) some appropriate time before the process begins. (Example: success of a rocket launch occurring at an unknown time)
 * If the outcome of a question depends on a discrete event that may or may not happen, the close time should be specified as shortly before the resolve time. The resolve time is chosen based on author discretion of the period of interest.
 
 :::info
